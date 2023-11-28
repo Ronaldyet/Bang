@@ -1,40 +1,50 @@
 
-```css
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 20px;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
 
-header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your GitHub Pages Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, main, footer {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
 
-h1, h2, h3 {
-  color: #007bff;
-}
+    <header>
+        <h1>Your GitHub Pages Site</h1>
+    </header>
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
+    <main>
+        <p>Welcome to my GitHub Pages site!</p>
+        <!-- Add your content here -->
+    </main>
 
-main {
-  padding: 20px 0;
-}
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
 
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+</body>
+</html>
 ```
+
+
+
+
+
+
+
+
+
+
